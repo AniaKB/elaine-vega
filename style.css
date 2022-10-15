@@ -1,3 +1,8 @@
+html {
+  background-image: url("white_wall.jpeg");
+  background-repeat: repeat;
+}
+
 body {
   font-family: 'Lora', serif;
   margin: 50px;
@@ -6,7 +11,8 @@ body {
 h1 {
   font-family: 'Inspiration', cursive;
   font-size: 90px;
-  text-align: right;
+  text-align: center;
+  padding-left: 100px;
 }
 
 nav {
@@ -18,20 +24,25 @@ nav {
 
 a {
   text-decoration: none;
+  font-size: 18px;
   color: white;
   padding-left: 10px;
   padding-right:10px;
 }
 
+a:hover {
+  color: #C192A3;
+}
+
 .profile {
-  padding-left: 300px;
+  margin-left: 0px;
   position: absolute;
   width: 30%;
-  box-shadow: 0 0 4px 1px rgba(95, 81, 72, 0.5);
+  box-shadow: 0 0 6px 1px rgba(95, 81, 72, 0.5);
   transition: 1s ease all;
 }
 
 img:hover {
-  width: 33%;
+  width: 31%;
   transition: 1s ease all;
 }
