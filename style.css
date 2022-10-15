@@ -1,0 +1,37 @@
+body {
+  font-family: 'Lora', serif;
+  margin: 50px;
+}
+
+h1 {
+  font-family: 'Inspiration', cursive;
+  font-size: 90px;
+  text-align: right;
+}
+
+nav {
+  background-color: #5D3846;
+  padding: 20px;
+  width: 100%;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  padding-right:10px;
+}
+
+.profile {
+  padding-left: 300px;
+  position: absolute;
+  width: 30%;
+  box-shadow: 0 0 4px 1px rgba(95, 81, 72, 0.5);
+  transition: 1s ease all;
+}
+
+img:hover {
+  width: 33%;
+  transition: 1s ease all;
+}
