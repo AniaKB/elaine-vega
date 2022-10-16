@@ -68,6 +68,10 @@ aside {
   padding-right: 10px;
 }
 
+.bio {
+  padding:25px 50px 25px 50px;
+}
+
 @media (max-width: 679px) {
   nav {
     padding-left: 20px;
@@ -94,6 +98,11 @@ aside {
     padding-left: 5px;
     padding-right:5px;
   }
+}
+
+footer {
+  font-size: 12px;
+  padding:4px;
 }
 
 @media screen and (min-width: 912px) {
