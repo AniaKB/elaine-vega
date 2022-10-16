@@ -23,6 +23,7 @@ nav {
   background-color: #5D3846;
   padding: 20px 30px 20px 280px;
   text-align: left;
+  white-space: nowrap;
   /*border-radius: 0px 10px 50px 0px;*/
 }
 
@@ -42,12 +43,13 @@ a:hover {
   margin-left: 0px;
   position: absolute;
   box-shadow: 0 0 6px 1px rgba(95, 81, 72, 0.5);
-  width : 266px;
+  width: 265px;
+  aspect-ratio: 1600 / 1998;
   transition: 1s ease all;
 }
 
-img:hover {
-  border-radius: 10px;
+.profile:hover {
+  filter: contrast(115%);
   transition: 1s ease all;
 }
 
@@ -55,9 +57,12 @@ section > a {
   color: black !important;
 }
 
+section > a:hover {
+  color: #963E63 !important;
+}
+
 .social-media {
-  margin-left: 280px;
-  margin-top: 10px;
+  margin: 4px 0px 3px 280px;
   display: flex;
   justify-content: space-between;
 }
@@ -66,13 +71,14 @@ aside {
   margin-right: 10px;
   text-align: right;
   padding-right: 10px;
+  padding-bottom:3px;
 }
 
 .bio {
   padding:25px 50px 25px 50px;
 }
 
-@media (max-width: 679px) {
+@media (max-width: 733px) {
   nav {
     padding-left: 20px;
     transition: 1s ease all;
@@ -88,7 +94,7 @@ aside {
     font-size: 60px;
     padding: 30px 30px 30px 185px;
     transition: 1s ease all;
-    white-space:nowrap;
+    white-space: nowrap;
   }
   aside {
     margin-left: 0;
@@ -105,14 +111,13 @@ footer {
   padding:4px;
 }
 
-@media screen and (min-width: 912px) {
+@media screen and (min-width: 992px) {
   .profile {
-    width : 308px;
+    width : 307px;
     transition: 1s ease all;
   }
   .social-media {
     margin-left: 320px;
-    margin-top: 10px;
     display: flex;
   }
 
@@ -124,6 +129,7 @@ footer {
   }
 
   nav {
-    padding-left: 320px;
+    padding-left: 210px;
+    text-align: center;
   }
 }
