@@ -16,14 +16,13 @@ h1 {
   font-family: 'Inspiration', cursive;
   font-size: 90px;
   text-align: center;
-  padding-left: 150px;
+  padding-left: 250px;
 }
 
 nav {
   background-color: #5D3846;
-  padding: 20px 30px 20px 40px;
+  padding: 20px 30px 20px 280px;
   text-align: left;
-  padding-left: 35%;
   /*border-radius: 0px 10px 50px 0px;*/
 }
 
@@ -42,8 +41,8 @@ a:hover {
 .profile {
   margin-left: 0px;
   position: absolute;
-  width: 30%;
   box-shadow: 0 0 6px 1px rgba(95, 81, 72, 0.5);
+  width : 266px;
   transition: 1s ease all;
 }
 
@@ -52,21 +51,21 @@ img:hover {
   transition: 1s ease all;
 }
 
-.social-media > a {
+section > a {
   color: black !important;
 }
 
 .social-media {
-  margin-left: 35%;
+  margin-left: 280px;
   margin-top: 10px;
   display: flex;
+  justify-content: space-between;
 }
-
 
 aside {
   margin-right: 10px;
   text-align: right;
-  padding-right: 20%;
+  padding-right: 10px;
 }
 
 @media (max-width: 679px) {
@@ -97,23 +96,25 @@ aside {
   }
 }
 
-@media screen and (min-width: 887px) {
+@media screen and (min-width: 912px) {
   .profile {
-    width : 266px;
+    width : 308px;
     transition: 1s ease all;
   }
   .social-media {
-    margin-left: 270px;
+    margin-left: 320px;
     margin-top: 10px;
     display: flex;
   }
 
   h1 {
-    text-align: left;
-    padding-left: 310px;
+    text-align: center;
+    padding-left: 210px;
+    font-size: 110px;
+    transition: 1s ease all;
   }
 
   nav {
-    padding-left: 270px;
+    padding-left: 320px;
   }
 }
