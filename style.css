@@ -1,6 +1,25 @@
+@media only screen and (max-width: 679px) {
+  nav {
+    padding: 20px 20px 20px 40px;
+    margin-left: 0px;
+    border-radius: 0px 10px 50px 0px;
+    background-color:blue;
+    transition: 1s ease all;
+  }
+}
+
+@media only screen and (min-width: 931px) {
+  .profile {
+    width : 279px;
+    transition: 1s ease all;
+  }
+}
+
+
 html {
   background-image: url("white_wall.jpeg");
   background-repeat: repeat;
+  background-color: rgb(218, 208, 198);
 }
 
 body {
@@ -17,9 +36,10 @@ h1 {
 
 nav {
   background-color: #5D3846;
-  padding: 20px;
-  width: 100%;
-  text-align: right;
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  margin-left: 30%;
+  border-radius: 0px 10px 50px 0px;
 }
 
 a {
@@ -43,6 +63,20 @@ a:hover {
 }
 
 img:hover {
-  width: 31%;
+  border-radius: 10px;
   transition: 1s ease all;
+}
+
+.social-media > a {
+  color: black !important;
+}
+
+.social-media {
+  margin-left: 35%;
+  margin-top: 10px;
+}
+
+aside {
+  margin-left: 35%;
+  margin-top: 25px;
 }
