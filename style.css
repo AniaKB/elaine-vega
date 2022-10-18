@@ -27,12 +27,21 @@ nav {
   /*border-radius: 0px 10px 50px 0px;*/
 }
 
-a {
+nav > a {
   text-decoration: none;
   font-size: 18px;
   color: white;
   padding-left: 10px;
   padding-right:10px;
+}
+
+.home {
+  text-decoration: none;
+  color: black;
+}
+
+.home:hover {
+  color: black;
 }
 
 a:hover {
@@ -43,18 +52,19 @@ a:hover {
   margin-left: 0px;
   position: absolute;
   box-shadow: 0 0 6px 1px rgba(95, 81, 72, 0.5);
-  width: 265px;
+  height: 333px;
   aspect-ratio: 1600 / 1998;
   transition: 1s ease all;
 }
 
 .profile:hover {
-  filter: contrast(115%);
+  filter: contrast(115%) grayscale(5%);
   transition: 1s ease all;
 }
 
 section > a {
   color: black !important;
+  padding: 2px;
 }
 
 section > a:hover {
@@ -62,7 +72,7 @@ section > a:hover {
 }
 
 .social-media {
-  margin: 4px 0px 3px 280px;
+  margin: 2px 0px 2px 250px;
   display: flex;
   justify-content: space-between;
 }
@@ -70,12 +80,11 @@ section > a:hover {
 aside {
   margin-right: 10px;
   text-align: right;
-  padding-right: 10px;
-  padding-bottom:3px;
+  padding: 2px 10px 2px 0px;
 }
 
-.bio {
-  padding:25px 50px 25px 50px;
+section {
+  padding:5px 50px 5px 38px;
 }
 
 @media (max-width: 733px) {
@@ -85,7 +94,7 @@ aside {
     text-align: left;
   }
   .profile {
-    width:174px;
+    height:258px;
   }
   .social-media {
     margin-left: 0;
@@ -113,11 +122,11 @@ footer {
 
 @media screen and (min-width: 992px) {
   .profile {
-    width : 307px;
+    height: 385px;
     transition: 1s ease all;
   }
   .social-media {
-    margin-left: 320px;
+    margin-left: 300px;
     display: flex;
   }
 
@@ -129,7 +138,7 @@ footer {
   }
 
   nav {
-    padding-left: 210px;
+    padding-left: 1;
     text-align: center;
   }
 }
