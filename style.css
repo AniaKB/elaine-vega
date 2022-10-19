@@ -24,7 +24,6 @@ nav {
   padding: 20px 30px 20px 280px;
   text-align: left;
   white-space: nowrap;
-  /*border-radius: 0px 10px 50px 0px;*/
 }
 
 nav > a {
@@ -87,11 +86,41 @@ section {
   padding:5px 50px 5px 38px;
 }
 
-@media (max-width: 733px) {
+footer {
+  font-size: 12px;
+  padding:4px;
+}
+
+.gallery {
+  width: 20%;
+  transition: 1s ease all;
+}
+
+.gallery:hover {
+  width:25%;
+  transition: 1s ease all;
+}
+
+@media screen and (max-width: 530) {
+  span {
+    display: block;
+  }
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 733px) {
   nav {
     padding-left: 20px;
     transition: 1s ease all;
     text-align: left;
+  }
+  nav > a {
+    font-size: 18px;
+    color: white;
+    padding-left: 5px;
+    padding-right:5px;
   }
   .profile {
     height:258px;
@@ -101,7 +130,7 @@ section {
   }
   h1 {
     font-size: 60px;
-    padding: 30px 30px 30px 185px;
+    padding: 30px 30px 30px 215px;
     transition: 1s ease all;
     white-space: nowrap;
   }
@@ -113,11 +142,6 @@ section {
     padding-left: 5px;
     padding-right:5px;
   }
-}
-
-footer {
-  font-size: 12px;
-  padding:4px;
 }
 
 @media screen and (min-width: 992px) {
