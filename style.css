@@ -101,6 +101,11 @@ footer {
   transition: 1s ease all;
 }
 
+.flexbox {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 530) {
   span {
     display: block;
@@ -150,7 +155,7 @@ footer {
     transition: 1s ease all;
   }
   .social-media {
-    margin-left: 300px;
+    margin-left: 290px;
     display: flex;
   }
 
