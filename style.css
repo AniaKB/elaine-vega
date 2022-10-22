@@ -94,11 +94,13 @@ footer {
 .gallery {
   width: 20%;
   transition: 1s ease all;
+  margin: 2%;
 }
 
 .gallery:hover {
   width:25%;
   transition: 1s ease all;
+  margin: 0px;
 }
 
 .flexbox {
