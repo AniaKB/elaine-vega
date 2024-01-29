@@ -7,19 +7,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Elaine Vega</title>
   </head>
   <body>
     <header>
       <img src="photos/ig3.jpg" class="profile">
       <a href="index.html" class="home">
-        <h1>Elaine <span>Vega</span></h1>
+        <h1 id="name"></h1>
       </a>
       <nav>
-        <a href="gallery.html">Gallery</a>
-        <a href="#">Reels</a>
-        <a href="https://asianwiki.com/Elaine_Vega">Asian Wiki</a>
-        <a href="#">Contact</a>
+        <a href="gallery.html" id="gallery"></a>
+        <a href="#" id="reels"></a>
+        <a href="https://asianwiki.com/Elaine_Vega" id="wiki"></a>
+        <a href="#" id="contact"></a>
       </nav>
       <div class="line2">
         <div class="social-media">
@@ -30,9 +31,9 @@
             <a href="#"><i class="fab fa-facebook-f"></i></a>
           </section>
         <aside>
-          <input type="radio" value="en" name="language" checked>
+          <input type="radio" value="en" id="en" name="language" checked>
           <label for="en">🇺🇸</label>
-          <input type="radio" value="kr" name="language">
+          <input type="radio" value="kr" id="kr" name="language">
           <label for="kr">🇰🇷</label>
         </aside>
       </div>
@@ -55,6 +56,6 @@
       </p>
       <p class="articles"></p>
     </section>
-    <footer>Last Updated Dec 2022</footer>
+    <footer>Last Updated Jan 2024</footer>
   </body>
 </html>
