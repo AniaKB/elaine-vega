@@ -10,7 +10,9 @@ body {
   border-style: solid;
 }
 
-header { border-style: solid;}
+header {
+  border-style: solid;
+}
 
 h1 {
   font-family: 'Inspiration', cursive;
