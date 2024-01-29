@@ -12,11 +12,12 @@ body {
 
 header {
   border-style: solid;
+  height: 330px;
 }
 
 h1 {
   font-family: 'Inspiration', cursive;
-  font-size: 90px;
+  font-size: 80px;
   text-align: center;
   padding-left: 250px;
 }
@@ -132,13 +133,13 @@ footer {
     padding-right:5px;
   }
   .profile {
-    height:258px;
+    height:232px;
   }
   .social-media {
     margin-left: 0;
   }
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     padding: 30px 30px 30px 215px;
     transition: 1s ease all;
     white-space: nowrap;
@@ -156,6 +157,9 @@ footer {
     margin: 10px;
     border-style: solid;
   }
+  header {
+    height: 350px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -171,7 +175,7 @@ footer {
   h1 {
     text-align: center;
     padding-left: 210px;
-    font-size: 110px;
+    font-size: 100px;
     transition: 1s ease all;
   }
 
@@ -179,5 +183,7 @@ footer {
     padding-left: 1;
     text-align: center;
   }
-
+  header {
+    height: 385px;
+  }
 }
